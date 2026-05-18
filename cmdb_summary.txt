@@ -1,0 +1,522 @@
+Ironclad CMDB API Audit Report
+==============================
+URL: https://my.api.mockaroo.com/ironclad/cmdb.json
+Status: 200
+Total assets: 300
+
+Assets by Environment:
+- staging: 108
+- prod: 101
+- dev: 91
+
+Assets by Risk Level:
+- HIGH: 54
+- MEDIUM: 133
+- LOW: 113
+
+Internet-Exposed Assets:
+- db-3 | owner=HR | crit=low | env=staging
+- compute-33 | owner=Engineering | crit=high | env=dev
+- web-15 | owner=Engineering | crit=low | env=staging
+- web-15 | owner=HR | crit=high | env=staging
+- compute-9 | owner=Engineering | crit=medium | env=staging
+- eng-24 | owner=Executive Administration | crit=low | env=prod
+- web-16 | owner=IT | crit=low | env=prod
+- web-10 | owner=Finance | crit=low | env=dev
+- web-10 | owner=Executive Administration | crit=high | env=dev
+- finance-24 | owner=HR | crit=high | env=prod
+- web-15 | owner=Engineering | crit=high | env=staging
+- web-26 | owner=Finance | crit=medium | env=prod
+- eng-16 | owner=Executive Administration | crit=low | env=dev
+- finance-35 | owner=IT | crit=high | env=prod
+- eng-28 | owner=Security | crit=medium | env=staging
+- db-31 | owner=Engineering | crit=high | env=staging
+- web-48 | owner=IT | crit=low | env=staging
+- eng-22 | owner=HR | crit=high | env=prod
+- compute-50 | owner=Finance | crit=medium | env=staging
+- db-17 | owner=Engineering | crit=medium | env=staging
+- eng-33 | owner=Executive Administration | crit=high | env=dev
+- web-36 | owner=IT | crit=medium | env=dev
+- compute-43 | owner=Security | crit=medium | env=staging
+- compute-28 | owner=IT | crit=low | env=staging
+- web-39 | owner=Security | crit=low | env=dev
+- finance-41 | owner=Executive Administration | crit=high | env=dev
+- compute-12 | owner=Executive Administration | crit=high | env=staging
+- eng-15 | owner=Engineering | crit=low | env=staging
+- compute-14 | owner=HR | crit=low | env=dev
+- eng-32 | owner=Security | crit=high | env=staging
+- hr-33 | owner=Finance | crit=high | env=staging
+- web-47 | owner=IT | crit=low | env=staging
+- hr-25 | owner=Security | crit=medium | env=prod
+- eng-14 | owner=Executive Administration | crit=low | env=prod
+- db-12 | owner=Security | crit=high | env=staging
+- web-36 | owner=Finance | crit=high | env=prod
+- eng-48 | owner=Executive Administration | crit=high | env=prod
+- eng-17 | owner=Finance | crit=low | env=staging
+- web-16 | owner=Finance | crit=low | env=prod
+- hr-4 | owner=IT | crit=low | env=dev
+- compute-32 | owner=Engineering | crit=high | env=prod
+- web-28 | owner=Executive Administration | crit=low | env=prod
+- compute-36 | owner=Executive Administration | crit=medium | env=staging
+- web-26 | owner=Engineering | crit=high | env=dev
+- hr-26 | owner=Finance | crit=medium | env=prod
+- db-13 | owner=Security | crit=high | env=staging
+- eng-35 | owner=IT | crit=low | env=prod
+- finance-48 | owner=IT | crit=medium | env=staging
+- db-2 | owner=IT | crit=medium | env=staging
+- eng-34 | owner=IT | crit=medium | env=dev
+- hr-30 | owner=Finance | crit=low | env=prod
+- hr-34 | owner=Finance | crit=medium | env=staging
+- web-28 | owner=Executive Administration | crit=low | env=dev
+- finance-29 | owner=Finance | crit=medium | env=prod
+- hr-44 | owner=Engineering | crit=low | env=prod
+- db-46 | owner=Security | crit=medium | env=prod
+- eng-50 | owner=Executive Administration | crit=low | env=staging
+- db-50 | owner=Finance | crit=low | env=prod
+- db-41 | owner=Executive Administration | crit=high | env=prod
+- hr-49 | owner=HR | crit=high | env=staging
+- hr-26 | owner=Security | crit=high | env=prod
+- hr-4 | owner=Engineering | crit=low | env=prod
+- web-49 | owner=Finance | crit=low | env=staging
+- finance-14 | owner=IT | crit=high | env=staging
+- finance-46 | owner=Executive Administration | crit=high | env=staging
+- eng-13 | owner=Engineering | crit=low | env=dev
+- hr-16 | owner=Executive Administration | crit=high | env=dev
+- finance-33 | owner=Security | crit=high | env=staging
+- web-5 | owner=HR | crit=high | env=staging
+- compute-3 | owner=Executive Administration | crit=low | env=prod
+- hr-39 | owner=Executive Administration | crit=high | env=dev
+- finance-41 | owner=IT | crit=low | env=dev
+- eng-36 | owner=IT | crit=low | env=staging
+- web-9 | owner=Finance | crit=high | env=prod
+- finance-20 | owner=Engineering | crit=high | env=dev
+- eng-31 | owner=Engineering | crit=high | env=staging
+- compute-10 | owner=HR | crit=low | env=staging
+- web-50 | owner=IT | crit=high | env=staging
+- db-37 | owner=Security | crit=medium | env=dev
+- db-4 | owner=Engineering | crit=low | env=dev
+- db-4 | owner=Finance | crit=high | env=prod
+- db-7 | owner=Executive Administration | crit=high | env=dev
+- finance-16 | owner=Finance | crit=medium | env=prod
+- hr-37 | owner=Finance | crit=high | env=prod
+- db-11 | owner=Executive Administration | crit=medium | env=dev
+- finance-30 | owner=IT | crit=medium | env=staging
+- hr-33 | owner=IT | crit=medium | env=dev
+- db-30 | owner=Finance | crit=low | env=prod
+- compute-28 | owner=Finance | crit=low | env=staging
+- finance-28 | owner=Engineering | crit=high | env=staging
+- compute-44 | owner=Finance | crit=high | env=dev
+- finance-1 | owner=Engineering | crit=high | env=staging
+- web-9 | owner=Executive Administration | crit=low | env=prod
+- compute-3 | owner=Finance | crit=high | env=prod
+- db-23 | owner=Executive Administration | crit=high | env=dev
+- compute-45 | owner=Finance | crit=low | env=staging
+- finance-20 | owner=Finance | crit=high | env=dev
+- compute-4 | owner=Finance | crit=medium | env=prod
+- compute-5 | owner=Finance | crit=medium | env=prod
+- db-10 | owner=HR | crit=medium | env=prod
+- eng-11 | owner=IT | crit=high | env=prod
+- eng-6 | owner=Engineering | crit=low | env=dev
+- finance-6 | owner=IT | crit=low | env=dev
+- eng-22 | owner=Engineering | crit=medium | env=dev
+- compute-14 | owner=Engineering | crit=high | env=prod
+- hr-33 | owner=Engineering | crit=low | env=prod
+- web-31 | owner=Engineering | crit=medium | env=dev
+- db-35 | owner=HR | crit=high | env=dev
+- finance-10 | owner=HR | crit=low | env=staging
+- compute-49 | owner=Executive Administration | crit=medium | env=staging
+- db-47 | owner=Security | crit=medium | env=prod
+- hr-27 | owner=IT | crit=high | env=dev
+- compute-24 | owner=Executive Administration | crit=low | env=staging
+- db-29 | owner=HR | crit=high | env=dev
+- eng-42 | owner=Security | crit=high | env=staging
+- web-32 | owner=Finance | crit=medium | env=staging
+- web-46 | owner=IT | crit=high | env=staging
+- web-16 | owner=IT | crit=low | env=staging
+- compute-21 | owner=HR | crit=low | env=prod
+- eng-21 | owner=Security | crit=low | env=dev
+- eng-29 | owner=Finance | crit=low | env=prod
+- db-6 | owner=Executive Administration | crit=medium | env=staging
+- finance-39 | owner=Executive Administration | crit=high | env=dev
+- hr-38 | owner=Finance | crit=high | env=staging
+- web-12 | owner=IT | crit=low | env=prod
+- eng-24 | owner=HR | crit=low | env=prod
+- web-7 | owner=Executive Administration | crit=low | env=prod
+- finance-15 | owner=Security | crit=high | env=staging
+- web-48 | owner=HR | crit=medium | env=staging
+- compute-15 | owner=Security | crit=medium | env=prod
+- web-9 | owner=Security | crit=high | env=staging
+- compute-7 | owner=Engineering | crit=high | env=dev
+- eng-6 | owner=Finance | crit=medium | env=dev
+- finance-4 | owner=HR | crit=high | env=prod
+
+High Priority Review (Prod + Exposed/Critical):
+Count: 60
+- eng-24 | owner=Executive Administration | crit=low | exposed=True
+- web-16 | owner=IT | crit=low | exposed=True
+- finance-24 | owner=HR | crit=high | exposed=True
+- web-26 | owner=Finance | crit=medium | exposed=True
+- finance-35 | owner=IT | crit=high | exposed=True
+- eng-22 | owner=HR | crit=high | exposed=True
+- finance-40 | owner=Security | crit=high | exposed=False
+- compute-13 | owner=IT | crit=high | exposed=False
+- finance-22 | owner=HR | crit=high | exposed=False
+- compute-34 | owner=Engineering | crit=high | exposed=False
+- hr-25 | owner=Security | crit=medium | exposed=True
+- eng-14 | owner=Executive Administration | crit=low | exposed=True
+- web-47 | owner=IT | crit=high | exposed=False
+- web-36 | owner=Finance | crit=high | exposed=True
+- eng-48 | owner=Executive Administration | crit=high | exposed=True
+- web-16 | owner=Finance | crit=low | exposed=True
+- compute-32 | owner=Engineering | crit=high | exposed=True
+- finance-47 | owner=IT | crit=high | exposed=False
+- web-28 | owner=Executive Administration | crit=low | exposed=True
+- hr-26 | owner=Finance | crit=medium | exposed=True
+- eng-35 | owner=IT | crit=low | exposed=True
+- hr-30 | owner=Finance | crit=low | exposed=True
+- finance-29 | owner=Finance | crit=medium | exposed=True
+- hr-19 | owner=Security | crit=high | exposed=False
+- eng-30 | owner=Finance | crit=high | exposed=False
+- hr-44 | owner=Engineering | crit=low | exposed=True
+- db-46 | owner=Security | crit=medium | exposed=True
+- db-50 | owner=Finance | crit=low | exposed=True
+- db-41 | owner=Executive Administration | crit=high | exposed=True
+- hr-26 | owner=Security | crit=high | exposed=True
+- hr-4 | owner=Engineering | crit=low | exposed=True
+- db-38 | owner=Security | crit=high | exposed=False
+- compute-3 | owner=Executive Administration | crit=low | exposed=True
+- web-9 | owner=Finance | crit=high | exposed=True
+- hr-42 | owner=HR | crit=high | exposed=False
+- db-4 | owner=Finance | crit=high | exposed=True
+- finance-16 | owner=Finance | crit=medium | exposed=True
+- hr-37 | owner=Finance | crit=high | exposed=True
+- hr-40 | owner=Finance | crit=high | exposed=False
+- db-30 | owner=Finance | crit=low | exposed=True
+- hr-10 | owner=Security | crit=high | exposed=False
+- web-9 | owner=Executive Administration | crit=low | exposed=True
+- compute-3 | owner=Finance | crit=high | exposed=True
+- compute-4 | owner=Finance | crit=medium | exposed=True
+- compute-5 | owner=Finance | crit=medium | exposed=True
+- db-10 | owner=HR | crit=medium | exposed=True
+- eng-11 | owner=IT | crit=high | exposed=True
+- compute-14 | owner=Engineering | crit=high | exposed=True
+- hr-33 | owner=Engineering | crit=low | exposed=True
+- db-47 | owner=Security | crit=medium | exposed=True
+- compute-21 | owner=HR | crit=low | exposed=True
+- eng-29 | owner=Finance | crit=low | exposed=True
+- finance-13 | owner=Finance | crit=high | exposed=False
+- web-42 | owner=Security | crit=high | exposed=False
+- web-12 | owner=IT | crit=low | exposed=True
+- eng-24 | owner=HR | crit=low | exposed=True
+- hr-23 | owner=Engineering | crit=high | exposed=False
+- web-7 | owner=Executive Administration | crit=low | exposed=True
+- compute-15 | owner=Security | crit=medium | exposed=True
+- finance-4 | owner=HR | crit=high | exposed=True
+
+Top 3 Owner Teams by HIGH Risk:
+- Executive Administration: 12
+- Engineering: 11
+- Finance: 9
+
+Assets Not Seen in 30+ Days:
+Count: 300
+- db-3 | last_seen=1/19/2025 | days_ago=484
+- db-13 | last_seen=1/2/2026 | days_ago=136
+- hr-45 | last_seen=9/22/2025 | days_ago=238
+- hr-16 | last_seen=10/12/2025 | days_ago=218
+- compute-33 | last_seen=5/24/2025 | days_ago=359
+- web-15 | last_seen=3/11/2025 | days_ago=433
+- web-15 | last_seen=9/21/2025 | days_ago=239
+- compute-9 | last_seen=11/29/2025 | days_ago=170
+- compute-31 | last_seen=6/15/2025 | days_ago=337
+- eng-24 | last_seen=10/6/2025 | days_ago=224
+- eng-34 | last_seen=4/23/2025 | days_ago=390
+- eng-8 | last_seen=7/16/2025 | days_ago=306
+- web-16 | last_seen=10/31/2025 | days_ago=199
+- web-10 | last_seen=4/11/2025 | days_ago=402
+- eng-50 | last_seen=1/1/2026 | days_ago=137
+- web-10 | last_seen=7/31/2025 | days_ago=291
+- finance-24 | last_seen=11/13/2025 | days_ago=186
+- web-15 | last_seen=1/9/2025 | days_ago=494
+- web-26 | last_seen=11/9/2025 | days_ago=190
+- web-33 | last_seen=1/17/2025 | days_ago=486
+- finance-24 | last_seen=4/3/2025 | days_ago=410
+- eng-16 | last_seen=12/27/2025 | days_ago=142
+- finance-35 | last_seen=2/9/2025 | days_ago=463
+- db-41 | last_seen=12/24/2025 | days_ago=145
+- compute-2 | last_seen=2/25/2025 | days_ago=447
+- web-31 | last_seen=8/21/2025 | days_ago=270
+- web-12 | last_seen=8/4/2025 | days_ago=287
+- finance-14 | last_seen=4/16/2025 | days_ago=397
+- eng-28 | last_seen=5/8/2025 | days_ago=375
+- db-31 | last_seen=10/26/2025 | days_ago=204
+- web-38 | last_seen=5/5/2025 | days_ago=378
+- web-19 | last_seen=7/19/2025 | days_ago=303
+- compute-30 | last_seen=5/26/2025 | days_ago=357
+- db-16 | last_seen=9/10/2025 | days_ago=250
+- hr-46 | last_seen=12/23/2025 | days_ago=146
+- web-48 | last_seen=3/24/2025 | days_ago=420
+- eng-22 | last_seen=1/1/2026 | days_ago=137
+- compute-50 | last_seen=5/29/2025 | days_ago=354
+- finance-40 | last_seen=6/12/2025 | days_ago=340
+- db-17 | last_seen=8/26/2025 | days_ago=265
+- eng-10 | last_seen=3/13/2025 | days_ago=431
+- eng-33 | last_seen=1/3/2026 | days_ago=135
+- web-36 | last_seen=11/29/2025 | days_ago=170
+- compute-13 | last_seen=12/4/2025 | days_ago=165
+- finance-4 | last_seen=10/9/2025 | days_ago=221
+- finance-29 | last_seen=3/31/2025 | days_ago=413
+- compute-43 | last_seen=1/11/2025 | days_ago=492
+- finance-22 | last_seen=4/8/2025 | days_ago=405
+- compute-28 | last_seen=2/28/2025 | days_ago=444
+- web-39 | last_seen=9/18/2025 | days_ago=242
+- finance-42 | last_seen=8/26/2025 | days_ago=265
+- finance-37 | last_seen=9/28/2025 | days_ago=232
+- finance-41 | last_seen=10/18/2025 | days_ago=212
+- compute-12 | last_seen=11/22/2025 | days_ago=177
+- eng-15 | last_seen=8/27/2025 | days_ago=264
+- compute-46 | last_seen=8/2/2025 | days_ago=289
+- eng-21 | last_seen=9/8/2025 | days_ago=252
+- finance-39 | last_seen=9/1/2025 | days_ago=259
+- hr-11 | last_seen=6/1/2025 | days_ago=351
+- finance-30 | last_seen=11/27/2025 | days_ago=172
+- eng-29 | last_seen=6/24/2025 | days_ago=328
+- compute-14 | last_seen=11/6/2025 | days_ago=193
+- compute-15 | last_seen=1/4/2025 | days_ago=499
+- finance-38 | last_seen=7/2/2025 | days_ago=320
+- eng-32 | last_seen=7/8/2025 | days_ago=314
+- hr-39 | last_seen=9/24/2025 | days_ago=236
+- compute-34 | last_seen=7/26/2025 | days_ago=296
+- hr-33 | last_seen=7/9/2025 | days_ago=313
+- web-47 | last_seen=3/20/2025 | days_ago=424
+- finance-18 | last_seen=7/3/2025 | days_ago=319
+- hr-25 | last_seen=12/8/2025 | days_ago=161
+- eng-14 | last_seen=12/6/2025 | days_ago=163
+- finance-46 | last_seen=7/15/2025 | days_ago=307
+- web-47 | last_seen=9/4/2025 | days_ago=256
+- db-12 | last_seen=8/15/2025 | days_ago=276
+- web-36 | last_seen=1/16/2025 | days_ago=487
+- hr-21 | last_seen=3/14/2025 | days_ago=430
+- web-35 | last_seen=8/23/2025 | days_ago=268
+- eng-48 | last_seen=7/20/2025 | days_ago=302
+- eng-25 | last_seen=3/11/2025 | days_ago=433
+- eng-17 | last_seen=8/13/2025 | days_ago=278
+- web-16 | last_seen=3/13/2025 | days_ago=431
+- compute-47 | last_seen=9/17/2025 | days_ago=243
+- hr-4 | last_seen=10/14/2025 | days_ago=216
+- compute-32 | last_seen=7/4/2025 | days_ago=318
+- eng-7 | last_seen=12/15/2025 | days_ago=154
+- finance-47 | last_seen=1/27/2025 | days_ago=476
+- hr-1 | last_seen=3/13/2025 | days_ago=431
+- web-28 | last_seen=5/22/2025 | days_ago=361
+- finance-14 | last_seen=5/27/2025 | days_ago=356
+- finance-25 | last_seen=5/23/2025 | days_ago=360
+- compute-36 | last_seen=3/19/2025 | days_ago=425
+- hr-11 | last_seen=4/21/2025 | days_ago=392
+- hr-46 | last_seen=7/20/2025 | days_ago=302
+- web-26 | last_seen=8/25/2025 | days_ago=266
+- hr-26 | last_seen=9/26/2025 | days_ago=234
+- db-13 | last_seen=11/15/2025 | days_ago=184
+- hr-18 | last_seen=11/14/2025 | days_ago=185
+- web-35 | last_seen=3/8/2025 | days_ago=436
+- eng-35 | last_seen=8/31/2025 | days_ago=260
+- web-2 | last_seen=3/31/2025 | days_ago=413
+- hr-12 | last_seen=4/17/2025 | days_ago=396
+- finance-48 | last_seen=9/1/2025 | days_ago=259
+- eng-15 | last_seen=4/23/2025 | days_ago=390
+- db-2 | last_seen=2/2/2025 | days_ago=470
+- eng-34 | last_seen=4/4/2025 | days_ago=409
+- db-34 | last_seen=3/5/2025 | days_ago=439
+- hr-30 | last_seen=2/26/2025 | days_ago=446
+- hr-34 | last_seen=6/29/2025 | days_ago=323
+- finance-3 | last_seen=5/9/2025 | days_ago=374
+- compute-24 | last_seen=6/30/2025 | days_ago=322
+- eng-28 | last_seen=1/25/2025 | days_ago=478
+- web-16 | last_seen=1/26/2025 | days_ago=477
+- web-28 | last_seen=2/15/2025 | days_ago=457
+- db-23 | last_seen=7/26/2025 | days_ago=296
+- hr-34 | last_seen=8/13/2025 | days_ago=278
+- finance-29 | last_seen=7/29/2025 | days_ago=293
+- hr-19 | last_seen=10/14/2025 | days_ago=216
+- eng-7 | last_seen=3/8/2025 | days_ago=436
+- eng-30 | last_seen=1/12/2025 | days_ago=491
+- compute-43 | last_seen=5/18/2025 | days_ago=365
+- hr-44 | last_seen=3/1/2025 | days_ago=443
+- web-1 | last_seen=10/7/2025 | days_ago=223
+- finance-37 | last_seen=12/12/2025 | days_ago=157
+- db-41 | last_seen=5/10/2025 | days_ago=373
+- eng-48 | last_seen=8/10/2025 | days_ago=281
+- db-46 | last_seen=4/29/2025 | days_ago=384
+- hr-14 | last_seen=5/15/2025 | days_ago=368
+- eng-50 | last_seen=12/1/2025 | days_ago=168
+- finance-1 | last_seen=11/21/2025 | days_ago=178
+- web-25 | last_seen=3/1/2025 | days_ago=443
+- web-23 | last_seen=10/20/2025 | days_ago=210
+- db-50 | last_seen=3/8/2025 | days_ago=436
+- db-41 | last_seen=9/26/2025 | days_ago=234
+- web-50 | last_seen=4/27/2025 | days_ago=386
+- web-20 | last_seen=9/4/2025 | days_ago=256
+- db-6 | last_seen=7/27/2025 | days_ago=295
+- compute-4 | last_seen=6/17/2025 | days_ago=335
+- hr-49 | last_seen=2/17/2025 | days_ago=455
+- hr-39 | last_seen=12/24/2025 | days_ago=145
+- compute-15 | last_seen=10/3/2025 | days_ago=227
+- compute-50 | last_seen=3/10/2025 | days_ago=434
+- hr-26 | last_seen=11/4/2025 | days_ago=195
+- hr-4 | last_seen=1/12/2025 | days_ago=491
+- web-49 | last_seen=8/23/2025 | days_ago=268
+- eng-46 | last_seen=8/23/2025 | days_ago=268
+- finance-14 | last_seen=11/20/2025 | days_ago=179
+- finance-46 | last_seen=6/23/2025 | days_ago=329
+- eng-13 | last_seen=9/14/2025 | days_ago=246
+- hr-16 | last_seen=4/13/2025 | days_ago=400
+- finance-33 | last_seen=12/20/2025 | days_ago=149
+- db-38 | last_seen=1/10/2025 | days_ago=493
+- web-5 | last_seen=10/22/2025 | days_ago=208
+- compute-3 | last_seen=10/2/2025 | days_ago=228
+- hr-39 | last_seen=11/7/2025 | days_ago=192
+- finance-41 | last_seen=5/3/2025 | days_ago=380
+- compute-2 | last_seen=4/3/2025 | days_ago=410
+- web-12 | last_seen=9/20/2025 | days_ago=240
+- eng-30 | last_seen=4/28/2025 | days_ago=385
+- eng-36 | last_seen=2/2/2025 | days_ago=470
+- web-9 | last_seen=3/25/2025 | days_ago=419
+- eng-1 | last_seen=11/6/2025 | days_ago=193
+- db-16 | last_seen=11/29/2025 | days_ago=170
+- finance-20 | last_seen=1/8/2025 | days_ago=495
+- finance-4 | last_seen=2/4/2025 | days_ago=468
+- compute-47 | last_seen=10/22/2025 | days_ago=208
+- eng-30 | last_seen=9/16/2025 | days_ago=244
+- hr-24 | last_seen=4/19/2025 | days_ago=394
+- eng-6 | last_seen=5/16/2025 | days_ago=367
+- hr-42 | last_seen=5/16/2025 | days_ago=367
+- hr-17 | last_seen=12/13/2025 | days_ago=156
+- eng-31 | last_seen=6/10/2025 | days_ago=342
+- compute-31 | last_seen=12/5/2025 | days_ago=164
+- compute-26 | last_seen=9/12/2025 | days_ago=248
+- compute-10 | last_seen=2/25/2025 | days_ago=447
+- hr-11 | last_seen=8/10/2025 | days_ago=281
+- db-12 | last_seen=7/15/2025 | days_ago=307
+- db-24 | last_seen=10/7/2025 | days_ago=223
+- web-50 | last_seen=4/22/2025 | days_ago=391
+- db-37 | last_seen=1/16/2025 | days_ago=487
+- db-4 | last_seen=12/19/2025 | days_ago=150
+- finance-40 | last_seen=11/11/2025 | days_ago=188
+- db-4 | last_seen=1/20/2025 | days_ago=483
+- db-10 | last_seen=11/25/2025 | days_ago=174
+- compute-48 | last_seen=3/7/2025 | days_ago=437
+- db-7 | last_seen=12/18/2025 | days_ago=151
+- hr-25 | last_seen=12/6/2025 | days_ago=163
+- eng-28 | last_seen=6/1/2025 | days_ago=351
+- finance-16 | last_seen=9/16/2025 | days_ago=244
+- hr-37 | last_seen=10/10/2025 | days_ago=220
+- finance-30 | last_seen=2/24/2025 | days_ago=448
+- db-11 | last_seen=6/15/2025 | days_ago=337
+- hr-40 | last_seen=6/9/2025 | days_ago=343
+- finance-5 | last_seen=6/8/2025 | days_ago=344
+- compute-22 | last_seen=9/22/2025 | days_ago=238
+- finance-49 | last_seen=6/14/2025 | days_ago=338
+- finance-30 | last_seen=11/23/2025 | days_ago=176
+- db-34 | last_seen=4/1/2025 | days_ago=412
+- hr-33 | last_seen=5/11/2025 | days_ago=372
+- web-28 | last_seen=8/31/2025 | days_ago=260
+- eng-31 | last_seen=3/12/2025 | days_ago=432
+- hr-44 | last_seen=5/21/2025 | days_ago=362
+- web-22 | last_seen=1/12/2025 | days_ago=491
+- db-30 | last_seen=11/12/2025 | days_ago=187
+- compute-28 | last_seen=1/12/2025 | days_ago=491
+- finance-28 | last_seen=11/23/2025 | days_ago=176
+- compute-44 | last_seen=10/23/2025 | days_ago=207
+- hr-10 | last_seen=11/5/2025 | days_ago=194
+- eng-5 | last_seen=7/5/2025 | days_ago=317
+- finance-21 | last_seen=9/27/2025 | days_ago=233
+- finance-8 | last_seen=12/30/2025 | days_ago=139
+- finance-1 | last_seen=6/5/2025 | days_ago=347
+- web-9 | last_seen=3/27/2025 | days_ago=417
+- web-20 | last_seen=3/26/2025 | days_ago=418
+- finance-29 | last_seen=7/26/2025 | days_ago=296
+- compute-3 | last_seen=3/17/2025 | days_ago=427
+- finance-18 | last_seen=5/6/2025 | days_ago=377
+- db-23 | last_seen=4/17/2025 | days_ago=396
+- web-23 | last_seen=9/6/2025 | days_ago=254
+- compute-45 | last_seen=7/12/2025 | days_ago=310
+- finance-20 | last_seen=5/23/2025 | days_ago=360
+- compute-18 | last_seen=5/15/2025 | days_ago=368
+- web-4 | last_seen=8/8/2025 | days_ago=283
+- compute-4 | last_seen=5/17/2025 | days_ago=366
+- compute-5 | last_seen=12/7/2025 | days_ago=162
+- hr-22 | last_seen=11/7/2025 | days_ago=192
+- db-10 | last_seen=4/29/2025 | days_ago=384
+- db-39 | last_seen=11/4/2025 | days_ago=195
+- eng-11 | last_seen=2/11/2025 | days_ago=461
+- compute-36 | last_seen=1/18/2025 | days_ago=485
+- db-43 | last_seen=8/14/2025 | days_ago=277
+- eng-6 | last_seen=8/2/2025 | days_ago=289
+- finance-14 | last_seen=5/22/2025 | days_ago=361
+- finance-6 | last_seen=6/18/2025 | days_ago=334
+- eng-22 | last_seen=3/19/2025 | days_ago=425
+- eng-8 | last_seen=9/24/2025 | days_ago=236
+- compute-14 | last_seen=4/8/2025 | days_ago=405
+- hr-33 | last_seen=2/2/2025 | days_ago=470
+- db-15 | last_seen=10/31/2025 | days_ago=199
+- web-31 | last_seen=5/20/2025 | days_ago=363
+- db-35 | last_seen=9/9/2025 | days_ago=251
+- finance-10 | last_seen=2/7/2025 | days_ago=465
+- finance-20 | last_seen=9/8/2025 | days_ago=252
+- compute-49 | last_seen=5/21/2025 | days_ago=362
+- finance-45 | last_seen=4/7/2025 | days_ago=406
+- eng-8 | last_seen=7/28/2025 | days_ago=294
+- eng-49 | last_seen=3/19/2025 | days_ago=425
+- db-47 | last_seen=9/10/2025 | days_ago=250
+- finance-48 | last_seen=2/12/2025 | days_ago=460
+- web-42 | last_seen=4/3/2025 | days_ago=410
+- eng-19 | last_seen=12/3/2025 | days_ago=166
+- hr-27 | last_seen=5/1/2025 | days_ago=382
+- db-29 | last_seen=3/23/2025 | days_ago=421
+- hr-28 | last_seen=2/18/2025 | days_ago=454
+- compute-24 | last_seen=5/5/2025 | days_ago=378
+- db-29 | last_seen=10/6/2025 | days_ago=224
+- web-33 | last_seen=4/11/2025 | days_ago=402
+- finance-37 | last_seen=1/6/2025 | days_ago=497
+- db-4 | last_seen=12/15/2025 | days_ago=154
+- eng-42 | last_seen=5/16/2025 | days_ago=367
+- compute-29 | last_seen=2/27/2025 | days_ago=445
+- web-32 | last_seen=10/17/2025 | days_ago=213
+- web-46 | last_seen=5/28/2025 | days_ago=355
+- hr-26 | last_seen=8/26/2025 | days_ago=265
+- web-16 | last_seen=4/2/2025 | days_ago=411
+- hr-27 | last_seen=2/26/2025 | days_ago=446
+- compute-21 | last_seen=4/19/2025 | days_ago=394
+- eng-21 | last_seen=2/7/2025 | days_ago=465
+- web-48 | last_seen=5/11/2025 | days_ago=372
+- hr-49 | last_seen=9/6/2025 | days_ago=254
+- eng-29 | last_seen=3/13/2025 | days_ago=431
+- db-6 | last_seen=5/28/2025 | days_ago=355
+- finance-13 | last_seen=11/24/2025 | days_ago=175
+- db-30 | last_seen=7/24/2025 | days_ago=298
+- finance-39 | last_seen=8/17/2025 | days_ago=274
+- hr-38 | last_seen=12/18/2025 | days_ago=151
+- web-42 | last_seen=10/25/2025 | days_ago=205
+- web-29 | last_seen=12/26/2025 | days_ago=143
+- compute-24 | last_seen=10/30/2025 | days_ago=200
+- web-12 | last_seen=12/18/2025 | days_ago=151
+- db-42 | last_seen=10/4/2025 | days_ago=226
+- eng-24 | last_seen=3/7/2025 | days_ago=437
+- hr-23 | last_seen=11/10/2025 | days_ago=189
+- web-7 | last_seen=6/13/2025 | days_ago=339
+- db-19 | last_seen=8/3/2025 | days_ago=288
+- hr-5 | last_seen=11/20/2025 | days_ago=179
+- db-46 | last_seen=12/5/2025 | days_ago=164
+- finance-15 | last_seen=7/31/2025 | days_ago=291
+- web-48 | last_seen=9/2/2025 | days_ago=258
+- hr-48 | last_seen=12/12/2025 | days_ago=157
+- compute-16 | last_seen=5/6/2025 | days_ago=377
+- compute-15 | last_seen=8/11/2025 | days_ago=280
+- hr-4 | last_seen=6/29/2025 | days_ago=323
+- db-23 | last_seen=8/7/2025 | days_ago=284
+- web-9 | last_seen=1/3/2026 | days_ago=135
+- compute-7 | last_seen=12/4/2025 | days_ago=165
+- finance-15 | last_seen=12/21/2025 | days_ago=148
+- finance-40 | last_seen=7/19/2025 | days_ago=303
+- eng-6 | last_seen=11/22/2025 | days_ago=177
+- finance-4 | last_seen=11/22/2025 | days_ago=177
