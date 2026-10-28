@@ -32,11 +32,18 @@ Install `requests` once:
 python3 -m pip install requests
 ```
 
-The script calls `https://my.api.mockaroo.com/ironclad/cmdb.json` with an `X-API-Key` header and a 10 second timeout. Network errors, timeouts, non-success HTTP status, invalid JSON, and an unexpected response shape stop the script with a message.
+Set the Mockaroo API key in your environment. Replace the placeholder with your own key. Do not commit a real key:
+
+```bash
+export MOCKAROO_API_KEY="your-api-key-here"
+```
+
+The script calls `https://my.api.mockaroo.com/ironclad/cmdb.json` with an `X-API-Key` header taken from `MOCKAROO_API_KEY` and a 10 second timeout. If `MOCKAROO_API_KEY` is missing or blank, the script prints an error and exits before calling the API. Network errors, timeouts, non-success HTTP status, invalid JSON, and an unexpected response shape stop the script with a message.
 
 ## Usage
 
 ```bash
+export MOCKAROO_API_KEY="your-api-key-here"
 python3 cmdb_api_audit.py
 ```
 
