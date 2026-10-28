@@ -1,8 +1,18 @@
+import os
 import requests
 from datetime import datetime
 
 API_URL = "https://my.api.mockaroo.com/ironclad/cmdb.json"
-HEADERS = {"X-API-Key": "cf7bbbd0"}
+API_KEY_ENV = "MOCKAROO_API_KEY"
+api_key = os.environ.get(API_KEY_ENV, "").strip()
+if not api_key:
+    print(
+        f"Missing API key: set the {API_KEY_ENV} environment variable "
+        "to your Mockaroo API key, then run this script again."
+    )
+    raise SystemExit(1)
+
+HEADERS = {"X-API-Key": api_key}
 
 try:
     response = requests.get(API_URL, headers=HEADERS, timeout=10)
